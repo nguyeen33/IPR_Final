@@ -1,0 +1,12 @@
+# IMPORTANT:
+# mediapipe must be installed with --no-deps to avoid breaking numpy version
+# Install manually:
+# pip install mediapipe==0.10.5 --no-deps
+
+numpy==1.24.3
+tensorflow==2.13.0
+mediapipe==0.10.5
+opencv-contrib-python==4.6.0.66
+protobuf==3.20.3
+flask==2.3.3
+scipy==1.10.1
