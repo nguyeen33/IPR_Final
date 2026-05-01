@@ -16,10 +16,10 @@ Khi chạy lần đầu:
 - Model sẽ tự động được train
 - Sau đó lưu thành file `model.h5`
 
-## Bước 1: Tạo virtual environment
+## Bước 1: Tạo virtual environment với python 3.10
 
 ```bash
-python -m venv venv310
+py -3.10 -m venv venv310
 ```
 
 Kích hoạt:
@@ -33,7 +33,7 @@ venv310\Scripts\activate
 ## Bước 2: Nâng cấp pip
 
 ```bash
-pip install --upgrade pip
+python -m pip install --upgrade pip
 ```
 
 ---
@@ -63,15 +63,6 @@ http://127.0.0.1:5000
 
 ---
 
-# ⚠️ LƯU Ý QUAN TRỌNG
-
-* ❌ KHÔNG nâng cấp numpy
-* ❌ KHÔNG cài lại mediapipe nếu không có `--no-deps`
-* ❌ KHÔNG dùng Python 3.11+
-
----
-
----
 
 # 🧠 4. Cách hoạt động
 

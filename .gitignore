@@ -2,3 +2,4 @@
 *.keras
 *.pb
 model/
+data/git
