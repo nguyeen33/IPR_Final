@@ -1,9 +1,9 @@
-version: '3.9'
+version: '3.10'
 
 services:
   web:
     build: .
-    container_name: sign-language-translator
+    container_name: sign-language-recognizer
     ports:
       - "5000:5000"
     volumes:
